@@ -1,0 +1,24 @@
+name = gets.chomp
+
+if name == "Danny"
+  puts "welcome Danny!"
+elsif name == "Ian"
+  puts "Hey Ian!"
+else
+  puts "Hello Stranger!"
+end  
+
+
+
+
+  #1st, we'll need a value.
+  #2nd, we'll want one or more conditions to compare to the value.
+  #3rd, we'll add the code we want to run if that condition is met
+  
+case greeting
+  when "unfriendly_greeting"
+    puts "What do you want!?"
+  when "friendly_greeting"
+    puts "Hi! How are you?
+  end  
+end  
